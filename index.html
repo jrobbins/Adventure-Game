@@ -9,10 +9,10 @@
         
         <div class="row">
         <ul class="main-nav">
-            <li class="active"><a href="index.html"> HOME </a></li>
-            <li><a href="gameindex.html"> PLAY </a></li>
-            <li><a href=""> OPTIONS </a></li>
-            <li><a href=""> LANGUAGES </a></li> 
+            <button><li class="active"><a href="index.html"> HOME </a></li></button>
+            <button><li><a href="gameindex.html"> PLAY </a></li></button>
+            <button><li><a href=""> OPTIONS </a></li></button>
+            <button><li><a href=""> LANGUAGES </a></li></button>
         </ul>
             
         </div>
@@ -27,5 +27,13 @@
         </div>
         
     </header>
+    <script>
+        function changeBackground(el) {
+            el.style.backgroundImage = "url(backgroundnew.jpg)";
+            var text = document.getElementById("yee");
+            text.style.display = "none";
+        }
+    </script>
 </body>
 </html>
+<!--Version 1--->
