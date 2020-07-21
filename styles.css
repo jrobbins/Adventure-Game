@@ -13,6 +13,12 @@ header
     background-position: center;
 }
 
+button
+{
+    background-color:transparent;
+    border-color:transparent;
+}
+
 .main-nav
 {
     float: right;
