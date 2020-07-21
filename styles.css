@@ -116,7 +116,8 @@ h1
     transition: all 0.5s ease-in;
 }
 
-.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
-  outline: thin dotted;
-  outline-offset: -2px;
+button 
+{
+  background-color:transparent
+  border-color:transparent
 }
