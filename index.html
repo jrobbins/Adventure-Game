@@ -5,10 +5,10 @@
     
 </head>
 <body>
-    <header>
+    <header onclick="changeBackground(this)">
         
         <div class="row">
-        <ul class="main-nav" onclick="changeBackground(this)">
+        <ul class="main-nav">
             <li class="active"><a href="index.html"> HOME </a></li>
             <li><a href="gameindex.html"> PLAY </a></li>
             <li><a href=""> OPTIONS </a></li>
@@ -29,7 +29,7 @@
     </header>
     <script>
         function changeBackground(el) {
-            el.style.backgroundImage: "url(backgroundnew.jpg)";
+            el.style.backgroundImage = "url(backgroundnew.jpg)";
         }
     </script>
 </body>
