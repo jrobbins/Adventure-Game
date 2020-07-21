@@ -18,7 +18,7 @@
         </div>
         
         <div class="hero">
-        <h1>The Star Adventures</h1>
+        <h1 id="yee">The Star Adventures</h1>
         <div class="button">
             <a href="" class="btn btn-one"> Learn More </a>
             <a href="" class="btn btn-two"> Explore Game </a>
@@ -30,6 +30,8 @@
     <script>
         function changeBackground(el) {
             el.style.backgroundImage = "url(backgroundnew.jpg)";
+            var text = document.getElementById("yee");
+            text.style.display = "none";
         }
     </script>
 </body>
