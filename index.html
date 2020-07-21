@@ -8,7 +8,7 @@
     <header>
         
         <div class="row">
-        <ul class="main-nav">
+        <ul class="main-nav" onclick="changeBackground(this)">
             <li class="active"><a href="index.html"> HOME </a></li>
             <li><a href="gameindex.html"> PLAY </a></li>
             <li><a href=""> OPTIONS </a></li>
@@ -27,6 +27,10 @@
         </div>
         
     </header>
-    
+    <script>
+        function changeBackground(el) {
+            el.style.backgroundImage: "url(backgroundnew.jpg)";
+        }
+    </script>
 </body>
 </html>
